@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/00-CppHelloWorld/Testing/
+/00-CppHelloWorld/cmake-build-debug/
+/00-CppHelloWorld/.cmake/
+/00-CppHelloWorld/cmake_install.cmake
+/00-CppHelloWorld/CMakeCache.txt
+/00-CppHelloWorld/build.ninja
+/00-CppHelloWorld/.ninja_deps
+/00-CppHelloWorld/.ninja_log
