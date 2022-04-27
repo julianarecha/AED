@@ -6,7 +6,6 @@
 
 #include <iostream>
 #include<cassert>
-#include <stdio.h>
 
 int main() {
 
