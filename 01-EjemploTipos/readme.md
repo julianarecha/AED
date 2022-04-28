@@ -42,7 +42,9 @@ Diseñar un programa C++ que ejemplifique con pruebas la aplicación de los tipo
 > 
 > Justifique
 
-**Respuesta:** **TODO** :x:
+**Respuesta:** :heavy_check_mark:
+
+**No vimos todos los tipos de datos en clase, pero se mencionaron la mayoria de los tipos de datos fundamentales y algunos mas, los siguientes tambien son tipos de datos: short, long, float, long long, long double, void, byte, wchar_t, etc. Igualmente la mayoria de los tipos de datos que puedan faltar son combinaciones o derivados de los datos fundamentales, como los compuestos, punteros, arreglos, funciones, clases, etc.** 
 
 ### 6.6. Productos
 
