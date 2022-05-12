@@ -4,10 +4,8 @@
  * 20220420
  */
 
-#include <iostream> // Incluye la biblioteca de input/output stream
-                    // (flujo de entrada/salida) para que "string"
-                    // funcione, que en realidad es un "string of chars"
-                    // (cadena de caracteres), definido en la biblioteca de esta manera:
+#include <string>   // Incluye la biblioteca de string
+                    // definido en la biblioteca de esta manera:
                     // "typedef basic_string<char>    string;".
 
 #include <cassert>  // Incluye la biblioteca cassert para poder utilizar el assert
