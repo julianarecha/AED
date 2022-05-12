@@ -16,12 +16,10 @@
 
 int main() {    // Define la clase principal del programa por donde C++ ingresa, siempre retorna un entero que se define como el estado de la ejecucion.
 
-    const std::string palabra = "Las Palabras";     // Definimos una constante cadena de caracteres con valor "Las Palabras".
+    assert(true);                   // Aseveramos si la constante booleana es verdadera.
+    assert('a' != 'b');             // Aseveramos si la constante caracter no es b.
+    assert(666 == 666);             // Aseveramos si la constante entera sin signo es igual a 666.
+    assert(3.14159 > -7);           // Aseveramos si la constante de punto flotante con doble precision es mayor a la constante entera.
+    assert(12 == std::string("Las Palabras").length()); // Aseveramos si la constante cadena de caracteres tiene 12 caracteres de largo.
 
-    assert(true);                       // Aseveramos si la constante booleana es verdadera.
-    assert('a' != 'b');          // Aseveramos si la constante caracter no es b.
-    assert(666 == 666);          // Aseveramos si la constante entera sin signo es igual a 666.
-    assert(3.14159 > -7);  // Aseveramos si la constante de punto flotante con doble precision es mayor a la constante entera.
-    assert(12 == palabra.length());         // Aseveramos si la constante cadena de caracteres tiene 12 caracteres de largo.
-    
 }   // Cerramos la clase principal main.
