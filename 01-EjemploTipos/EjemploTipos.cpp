@@ -22,5 +22,6 @@ int main() {    // Define la clase principal del programa por donde C++ ingresa,
     assert(3.14159 > -7);           // Aseveramos si la constante de punto flotante con doble precision es mayor a la constante entera.
     assert(12 == std::string("Las Palabras").length()); // Aseveramos si la constante cadena de caracteres tiene 12 caracteres de largo.
     assert(12 == "Las Palabras"s.length()); // Aseveramos si la constante cadena de caracteres utilizando string_literals tiene 12 caracteres de largo.
+    assert("abcd"s == "ab"s + "cd"s);
 
 }   // Cerramos la clase principal main.
