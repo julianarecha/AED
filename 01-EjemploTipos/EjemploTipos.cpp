@@ -57,5 +57,6 @@ int main() {    // Define la clase principal del programa por donde C++ ingresa,
     assert(sizeof 65 == 4); // Memoria de entero
     assert(sizeof "Hola"s == 32); // Memoria de string C++
     assert(sizeof "Hola" == 5); // Memoria de string C
+    assert(7E6 == 7000000.0);
 
 }   // Cerramos la clase principal main.
